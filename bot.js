@@ -136,7 +136,7 @@ client.on('message', message => {
     }
 });
 client.on('message', message => {
-    var prefix = "$"
+    var prefix = "-"
 var args = message.content.split(" ").slice(1);    
 if(message.content.startsWith(prefix + 'id')) {
 var year = message.author.createdAt.getFullYear()
